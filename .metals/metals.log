@@ -108,3 +108,14 @@ scala.meta.internal.metals.ScalafixProvider$ScalafixRunException: SemanticDB not
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.lang.Thread.run(Thread.java:1583)
 
+2025.12.19 22:37:26 ERROR /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/build.sbt
+SemanticDB not found: build.sbt
+2025.12.19 22:37:26 ERROR Map()
+2025.12.19 22:37:26 ERROR SemanticDB not found: build.sbt
+scala.meta.internal.metals.ScalafixProvider$ScalafixRunException: SemanticDB not found: build.sbt
+	at scala.meta.internal.metals.ScalafixProvider.$anonfun$runScalafixRules$4(ScalafixProvider.scala:200)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:503)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
