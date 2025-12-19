@@ -531,3 +531,31 @@ Caused by: scala.meta.internal.metals.ScalafixProvider$ScalafixRunException: /Us
 2025.12.19 23:41:47 INFO  time: compiled root in 0.56s
 2025.12.19 23:42:44 INFO  compiling root (1 scala source)
 2025.12.19 23:42:44 INFO  time: compiled root in 0.22s
+2025.12.20 00:31:03 INFO  compiling root (1 scala source)
+2025.12.20 00:31:03 INFO  time: compiled root in 0.46s
+2025.12.20 00:31:03 INFO  compiling root (1 scala source)
+2025.12.20 00:31:03 INFO  time: compiled root in 0.22s
+2025.12.20 00:31:04 WARN  Attempt to organize your imports failed. It looks like you have compilation issues causing your semanticdb to be stale. Ensure everything is compiling and try again.
+2025.12.20 00:33:20 INFO  compiling root (1 scala source)
+2025.12.20 00:33:20 INFO  time: compiled root in 0.3s
+2025.12.20 00:33:20 INFO  compiling root (1 scala source)
+2025.12.20 00:33:20 INFO  time: compiled root in 0.16s
+2025.12.20 00:34:11 INFO  compiling root (1 scala source)
+2025.12.20 00:34:11 INFO  time: compiled root in 0.12s
+2025.12.20 00:34:12 WARN  Attempt to organize your imports failed. It looks like you have compilation issues causing your semanticdb to be stale. Ensure everything is compiling and try again.
+Dec 20, 2025 12:34:35 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 512
+2025.12.20 00:38:00 WARN  Could not load snapshot text for /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/src/main/scala/mytest/RatingAggregator.scala
+2025.12.20 00:39:12 INFO  compiling root (1 scala source)
+2025.12.20 00:39:12 INFO  time: compiled root in 0.41s
+2025.12.20 00:39:53 INFO  Created report: Optional[file:///Users/dhirendrakashyap/Projects/MediaRatingsAggregator/src/main/scala/mytest/RatingAggregator.scala]
+2025.12.20 00:39:53 INFO  empty definition using pc, found symbol in pc: `<none>`. (full report at: "/Users/dhirendrakashyap/Projects/MediaRatingsAggregator/.metals/.reports/metals-full/2025-12-20/r_empty-definition_(root)_00-39-53-817.md")
+2025.12.20 00:39:54 INFO  empty definition using pc, found symbol in pc: `<none>`. (full report at: "/Users/dhirendrakashyap/Projects/MediaRatingsAggregator/.metals/.reports/metals-full/2025-12-20/r_empty-definition_(root)_00-39-53-817.md")
+2025.12.20 00:42:09 INFO  compiling root (1 scala source)
+2025.12.20 00:42:09 INFO  compiling root-test (1 scala source)
+2025.12.20 00:42:09 INFO  time: compiled root in 0.55s
+2025.12.20 00:42:11 INFO  time: compiled root-test in 0.81s
+2025.12.20 00:44:41 INFO  compiling root-test (1 scala source)
+2025.12.20 00:44:42 INFO  time: compiled root-test in 1.18s
+2025.12.20 00:45:00 INFO  compiling root-test (1 scala source)
+2025.12.20 00:45:00 INFO  time: compiled root-test in 0.49s
