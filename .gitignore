@@ -1,8 +1,22 @@
-.bloop
-.bsp
-.idea
-.metals
-project/.bloop
-project/project
-project/target
-target
+# sbt / Scala build outputs
+target/
+project/target/
+project/project/
+
+# IDE files
+.idea/
+*.iml
+
+# Build tools / project metadata
+.bloop/
+.bsp/
+.metals/
+
+# OS artifacts
+.DS_Store
+
+# Compiled class files
+*.class
+
+# Temporary files
+*.log
