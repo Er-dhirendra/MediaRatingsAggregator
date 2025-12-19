@@ -1,0 +1,110 @@
+2025.12.11 23:14:12 INFO  Started: Metals version 1.6.4 in folders '/Users/dhirendrakashyap/Projects/MediaRatingsAggregator' for client helix 25.07.1 (a05c151b).[0m
+2025.12.11 23:14:12 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.[0m
+2025.12.11 23:14:13 INFO  Selected port 5031[0m
+Dec 11, 2025 11:14:13 PM io.undertow.Undertow start
+INFO: starting server: Undertow - 2.3.12.Final
+Dec 11, 2025 11:14:13 PM org.xnio.Xnio <clinit>
+INFO: XNIO version 3.8.17.Final
+Dec 11, 2025 11:14:13 PM org.xnio.nio.NioXnio <clinit>
+INFO: XNIO NIO Implementation Version 3.8.17.Final
+Dec 11, 2025 11:14:13 PM org.jboss.threads.Version <clinit>
+INFO: JBoss Threads version 3.5.0.Final
+2025.12.11 23:14:13 INFO  Started Metals http server at http://127.0.0.1:5031[0m
+2025.12.11 23:14:13 ERROR Unexpected error initializing server: 
+org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Method not found: window/showMessageRequest
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:204)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.lang.Thread.run(Thread.java:1474)
+[0m
+2025.12.19 22:32:19 INFO  Started: Metals version 1.6.4 in folders '/Users/dhirendrakashyap/Projects/MediaRatingsAggregator' for client Zed 0.217.1+stable.98.56049ac3b58f2da9e171c3fee318f7d4944b0159.
+2025.12.19 22:32:19 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2025.12.19 22:32:19 INFO  no build target found for /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.19 22:32:21 INFO  no build target found for /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.19 22:32:23 INFO  running '/Users/dhirendrakashyap/Library/Application Support/Coursier/bin/sbt -Dbloop.export-jar-classifiers=sources bloopInstall'
+2025.12.19 22:32:25 INFO  [info] welcome to sbt 1.10.4 (Azul Systems, Inc. Java 21.0.9)
+2025.12.19 22:32:25 INFO  [info] loading settings for project mediaratingsaggregator-build-build from metals.sbt ...
+2025.12.19 22:32:26 INFO  [info] loading project definition from /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/project/project
+2025.12.19 22:32:26 INFO  [info] loading settings for project mediaratingsaggregator-build from metals.sbt ...
+2025.12.19 22:32:26 INFO  [info] loading project definition from /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/project
+2025.12.19 22:32:33 INFO  [success] Generated .bloop/mediaratingsaggregator-build.json
+2025.12.19 22:32:33 INFO  [success] Total time: 6 s, completed 19-Dec-2025, 10:32:33 pm
+2025.12.19 22:32:33 INFO  [info] loading settings for project root from build.sbt ...
+2025.12.19 22:32:33 INFO  [info] set current project to MediaRatingsAggregator (in build file:/Users/dhirendrakashyap/Projects/MediaRatingsAggregator/)
+2025.12.19 22:32:33 INFO  [warn] scala3-library_3-3.3.4.jar no longer exists at /Users/dhirendrakashyap/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.3.4/scala3-library_3-3.3.4.jar
+2025.12.19 22:32:38 INFO  no build target found for /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.19 22:32:38 INFO  no build target found for /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/src/main/scala/mytest/RatingAggregator.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.19 22:32:38 INFO  no build target found for /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/src/main/scala/mytest/RatingAggregator.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.19 22:32:43 INFO  no build target found for /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/src/main/scala/mytest/RatingAggregator.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.19 22:32:43 INFO  no build target found for /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/src/main/scala/mytest/RatingAggregatorApp.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.19 22:32:43 INFO  no build target found for /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/src/main/scala/mytest/RatingAggregatorApp.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.19 22:32:48 INFO  [success] Generated .bloop/root.json
+2025.12.19 22:32:48 INFO  [success] Generated .bloop/root-test.json
+2025.12.19 22:32:48 INFO  [success] Total time: 14 s, completed 19-Dec-2025, 10:32:48 pm
+2025.12.19 22:32:48 INFO  time: ran 'sbt bloopInstall' in 24s
+2025.12.19 22:32:48 INFO  Attempting to connect to the build server...
+2025.12.19 22:32:48 INFO  No running Bloop server found, starting one.
+2025.12.19 22:32:48 INFO  Starting compilation server
+2025.12.19 22:32:49 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/.metals/bsp.trace.json or /Users/dhirendrakashyap/Library/Caches/org.scalameta.metals/bsp.trace.json
+2025.12.19 22:32:49 INFO  Attempting to connect to the build server...
+2025.12.19 22:32:49 INFO  Found a Bloop server running
+2025.12.19 22:32:49 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/project/.metals/bsp.trace.json or /Users/dhirendrakashyap/Library/Caches/org.scalameta.metals/bsp.trace.json
+2025.12.19 22:32:49 INFO  time: Connected to build server in 1.31s
+2025.12.19 22:32:49 INFO  Connected to Build server: Bloop v2.0.17
+2025.12.19 22:32:55 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2025.12.19 22:32:59 INFO  time: indexed workspace in 9.67s
+2025.12.19 22:32:59 INFO  compiling root (2 scala sources)
+2025.12.19 22:33:01 INFO  compiling root-test (1 scala source)
+2025.12.19 22:33:01 INFO  time: compiled root in 2.6s
+2025.12.19 22:33:01 INFO  time: compiled root-test in 0.85s
+2025.12.19 22:33:04 INFO  time: code lens generation in 1.58s
+2025.12.19 22:35:24 ERROR /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/build.sbt
+SemanticDB not found: build.sbt
+2025.12.19 22:35:24 ERROR Map()
+2025.12.19 22:35:24 ERROR SemanticDB not found: build.sbt
+scala.meta.internal.metals.ScalafixProvider$ScalafixRunException: SemanticDB not found: build.sbt
+	at scala.meta.internal.metals.ScalafixProvider.$anonfun$runScalafixRules$4(ScalafixProvider.scala:200)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:503)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2025.12.19 22:35:25 ERROR /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/build.sbt
+SemanticDB not found: build.sbt
+2025.12.19 22:35:25 ERROR Map()
+2025.12.19 22:35:25 ERROR SemanticDB not found: build.sbt
+scala.meta.internal.metals.ScalafixProvider$ScalafixRunException: SemanticDB not found: build.sbt
+	at scala.meta.internal.metals.ScalafixProvider.$anonfun$runScalafixRules$4(ScalafixProvider.scala:200)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:503)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2025.12.19 22:36:26 ERROR /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/build.sbt
+SemanticDB not found: build.sbt
+2025.12.19 22:36:26 ERROR Map()
+2025.12.19 22:36:26 ERROR SemanticDB not found: build.sbt
+scala.meta.internal.metals.ScalafixProvider$ScalafixRunException: SemanticDB not found: build.sbt
+	at scala.meta.internal.metals.ScalafixProvider.$anonfun$runScalafixRules$4(ScalafixProvider.scala:200)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:503)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2025.12.19 22:36:52 ERROR /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/build.sbt
+SemanticDB not found: build.sbt
+2025.12.19 22:36:52 ERROR Map()
+2025.12.19 22:36:52 ERROR SemanticDB not found: build.sbt
+scala.meta.internal.metals.ScalafixProvider$ScalafixRunException: SemanticDB not found: build.sbt
+	at scala.meta.internal.metals.ScalafixProvider.$anonfun$runScalafixRules$4(ScalafixProvider.scala:200)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:503)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+

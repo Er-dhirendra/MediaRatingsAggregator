@@ -1,0 +1,45 @@
+[debug] Packaging /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/target/scala-3.3.4/mediaratingsaggregator_3-0.1.0-SNAPSHOT.jar ...
+[debug] Input file mappings:
+[debug] 	mytest
+[debug] 	  /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/target/scala-3.3.4/classes/mytest
+[debug] 	mytest/AddRating.tasty
+[debug] 	  /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/target/scala-3.3.4/classes/mytest/AddRating.tasty
+[debug] 	mytest/Rating.tasty
+[debug] 	  /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/target/scala-3.3.4/classes/mytest/Rating.tasty
+[debug] 	mytest/Aggregates$.class
+[debug] 	  /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/target/scala-3.3.4/classes/mytest/Aggregates$.class
+[debug] 	mytest/AddRating.class
+[debug] 	  /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/target/scala-3.3.4/classes/mytest/AddRating.class
+[debug] 	mytest/Rating.class
+[debug] 	  /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/target/scala-3.3.4/classes/mytest/Rating.class
+[debug] 	mytest/AddRating$.class
+[debug] 	  /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/target/scala-3.3.4/classes/mytest/AddRating$.class
+[debug] 	mytest/Rating$.class
+[debug] 	  /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/target/scala-3.3.4/classes/mytest/Rating$.class
+[debug] 	mytest/RatingAggregatorApp.class
+[debug] 	  /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/target/scala-3.3.4/classes/mytest/RatingAggregatorApp.class
+[debug] 	mytest/RatingMessage.class
+[debug] 	  /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/target/scala-3.3.4/classes/mytest/RatingMessage.class
+[debug] 	mytest/ComputeAggregates.tasty
+[debug] 	  /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/target/scala-3.3.4/classes/mytest/ComputeAggregates.tasty
+[debug] 	mytest/Aggregates.tasty
+[debug] 	  /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/target/scala-3.3.4/classes/mytest/Aggregates.tasty
+[debug] 	mytest/RatingAggregator.tasty
+[debug] 	  /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/target/scala-3.3.4/classes/mytest/RatingAggregator.tasty
+[debug] 	mytest/RatingAggregator.class
+[debug] 	  /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/target/scala-3.3.4/classes/mytest/RatingAggregator.class
+[debug] 	mytest/RatingAggregatorApp$.class
+[debug] 	  /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/target/scala-3.3.4/classes/mytest/RatingAggregatorApp$.class
+[debug] 	mytest/ComputeAggregates.class
+[debug] 	  /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/target/scala-3.3.4/classes/mytest/ComputeAggregates.class
+[debug] 	mytest/Aggregates.class
+[debug] 	  /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/target/scala-3.3.4/classes/mytest/Aggregates.class
+[debug] 	mytest/RatingAggregator$.class
+[debug] 	  /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/target/scala-3.3.4/classes/mytest/RatingAggregator$.class
+[debug] 	mytest/RatingAggregatorApp.tasty
+[debug] 	  /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/target/scala-3.3.4/classes/mytest/RatingAggregatorApp.tasty
+[debug] 	mytest/RatingMessage.tasty
+[debug] 	  /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/target/scala-3.3.4/classes/mytest/RatingMessage.tasty
+[debug] 	mytest/ComputeAggregates$.class
+[debug] 	  /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/target/scala-3.3.4/classes/mytest/ComputeAggregates$.class
+[debug] Done packaging.

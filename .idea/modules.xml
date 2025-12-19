@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MediaRatingsAggregator.iml" filepath="$PROJECT_DIR$/.idea/modules/MediaRatingsAggregator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MediaRatingsAggregator.MediaRatingsAggregator-build.iml" filepath="$PROJECT_DIR$/.idea/modules/MediaRatingsAggregator.MediaRatingsAggregator-build.iml" />
+    </modules>
+  </component>
+</project>

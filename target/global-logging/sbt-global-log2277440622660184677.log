@@ -1,0 +1,15 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, Some(96af50c7-5da8-4b49-a18f-4dd96bf9e152), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/target/scala-3.3.4/test-classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mRatingAggregatorSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mRatingAggregator[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should add ratings and compute aggregates correctly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return None for a show with no ratings[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 386 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 2[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 2, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 1 s, completed 11 Dec 2025, 11:24:02 pm[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
