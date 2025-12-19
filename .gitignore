@@ -1,8 +1,8 @@
-./bloop
-./bsp
-./idea
-./metals
-/target
+.bloop
+.bsp
+.idea
+.metals
 project/.bloop
 project/project
 project/target
+target
