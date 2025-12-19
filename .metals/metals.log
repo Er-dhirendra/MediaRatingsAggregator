@@ -119,3 +119,13 @@ scala.meta.internal.metals.ScalafixProvider$ScalafixRunException: SemanticDB not
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.lang.Thread.run(Thread.java:1583)
 
+2025.12.19 22:41:45 INFO  Selected port 5031
+Dec 19, 2025 10:41:45 PM io.undertow.Undertow start
+INFO: starting server: Undertow - 2.3.12.Final
+Dec 19, 2025 10:41:45 PM org.xnio.Xnio <clinit>
+INFO: XNIO version 3.8.17.Final
+Dec 19, 2025 10:41:45 PM org.xnio.nio.NioXnio <clinit>
+INFO: XNIO NIO Implementation Version 3.8.17.Final
+Dec 19, 2025 10:41:45 PM org.jboss.threads.Version <clinit>
+INFO: JBoss Threads version 3.5.0.Final
+2025.12.19 22:41:45 INFO  Started Metals http server at http://127.0.0.1:5031
