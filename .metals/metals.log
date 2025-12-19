@@ -129,3 +129,405 @@ INFO: XNIO NIO Implementation Version 3.8.17.Final
 Dec 19, 2025 10:41:45 PM org.jboss.threads.Version <clinit>
 INFO: JBoss Threads version 3.5.0.Final
 2025.12.19 22:41:45 INFO  Started Metals http server at http://127.0.0.1:5031
+2025.12.19 23:29:08 ERROR Failed to clean up temporary files after scalafix evaluation: java.nio.file.NoSuchFileException: /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/.metals/.tmp/src
+2025.12.19 23:29:20 ERROR Failed to clean up temporary files after scalafix evaluation: java.nio.file.NoSuchFileException: /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/.metals/.tmp/src
+2025.12.19 23:29:21 ERROR Failed to clean up temporary files after scalafix evaluation: java.nio.file.NoSuchFileException: /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/.metals/.tmp/src/main
+Dec 19, 2025 11:29:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 222
+2025.12.19 23:29:28 ERROR Failed to clean up temporary files after scalafix evaluation: java.nio.file.NoSuchFileException: /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/.metals/.tmp/src/main
+2025.12.19 23:38:21 ERROR /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/src/main/scala/mytest/Guardian.scala
+/Users/dhirendrakashyap/Projects/MediaRatingsAggregator/.metals/.tmp/src/main/scala/mytest/Guardian.scala:3: error: illegal start of definition `identifier`
+bject Guardian {
+^
+2025.12.19 23:38:21 ERROR Map()
+2025.12.19 23:38:21 ERROR /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/.metals/.tmp/src/main/scala/mytest/Guardian.scala:3: error: illegal start of definition `identifier`
+bject Guardian {
+^
+scala.meta.internal.metals.ScalafixProvider$ScalafixRunException: /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/.metals/.tmp/src/main/scala/mytest/Guardian.scala:3: error: illegal start of definition `identifier`
+bject Guardian {
+^
+	at scala.meta.internal.metals.ScalafixProvider.$anonfun$runScalafixRules$4(ScalafixProvider.scala:200)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:503)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+Dec 19, 2025 11:38:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.ScalafixProvider$ScalafixRunException: /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/.metals/.tmp/src/main/scala/mytest/Guardian.scala:3: error: illegal start of definition `identifier`
+bject Guardian {
+^
+java.util.concurrent.CompletionException: scala.meta.internal.metals.ScalafixProvider$ScalafixRunException: /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/.metals/.tmp/src/main/scala/mytest/Guardian.scala:3: error: illegal start of definition `identifier`
+bject Guardian {
+^
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2194)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:517)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: scala.meta.internal.metals.ScalafixProvider$ScalafixRunException: /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/.metals/.tmp/src/main/scala/mytest/Guardian.scala:3: error: illegal start of definition `identifier`
+bject Guardian {
+^
+	at scala.meta.internal.metals.ScalafixProvider.$anonfun$runScalafixRules$4(ScalafixProvider.scala:200)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:503)
+	... 3 more
+
+2025.12.19 23:38:26 ERROR /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/src/main/scala/mytest/Guardian.scala
+/Users/dhirendrakashyap/Projects/MediaRatingsAggregator/.metals/.tmp/src/main/scala/mytest/Guardian.scala:3: error: illegal start of definition `identifier`
+bject Guardian {
+^
+2025.12.19 23:38:26 ERROR Map()
+2025.12.19 23:38:26 ERROR /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/.metals/.tmp/src/main/scala/mytest/Guardian.scala:3: error: illegal start of definition `identifier`
+bject Guardian {
+^
+scala.meta.internal.metals.ScalafixProvider$ScalafixRunException: /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/.metals/.tmp/src/main/scala/mytest/Guardian.scala:3: error: illegal start of definition `identifier`
+bject Guardian {
+^
+	at scala.meta.internal.metals.ScalafixProvider.$anonfun$runScalafixRules$4(ScalafixProvider.scala:200)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:503)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+Dec 19, 2025 11:38:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.ScalafixProvider$ScalafixRunException: /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/.metals/.tmp/src/main/scala/mytest/Guardian.scala:3: error: illegal start of definition `identifier`
+bject Guardian {
+^
+java.util.concurrent.CompletionException: scala.meta.internal.metals.ScalafixProvider$ScalafixRunException: /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/.metals/.tmp/src/main/scala/mytest/Guardian.scala:3: error: illegal start of definition `identifier`
+bject Guardian {
+^
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2194)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:517)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: scala.meta.internal.metals.ScalafixProvider$ScalafixRunException: /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/.metals/.tmp/src/main/scala/mytest/Guardian.scala:3: error: illegal start of definition `identifier`
+bject Guardian {
+^
+	at scala.meta.internal.metals.ScalafixProvider.$anonfun$runScalafixRules$4(ScalafixProvider.scala:200)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:503)
+	... 3 more
+
+2025.12.19 23:38:34 ERROR /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/src/main/scala/mytest/Guardian.scala
+/Users/dhirendrakashyap/Projects/MediaRatingsAggregator/.metals/.tmp/src/main/scala/mytest/Guardian.scala:24: error: `}` expected but `end of file` found
+
+^
+2025.12.19 23:38:34 ERROR Map()
+2025.12.19 23:38:34 ERROR /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/.metals/.tmp/src/main/scala/mytest/Guardian.scala:24: error: `}` expected but `end of file` found
+
+^
+scala.meta.internal.metals.ScalafixProvider$ScalafixRunException: /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/.metals/.tmp/src/main/scala/mytest/Guardian.scala:24: error: `}` expected but `end of file` found
+
+^
+	at scala.meta.internal.metals.ScalafixProvider.$anonfun$runScalafixRules$4(ScalafixProvider.scala:200)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:503)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+Dec 19, 2025 11:38:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.ScalafixProvider$ScalafixRunException: /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/.metals/.tmp/src/main/scala/mytest/Guardian.scala:24: error: `}` expected but `end of file` found
+
+^
+java.util.concurrent.CompletionException: scala.meta.internal.metals.ScalafixProvider$ScalafixRunException: /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/.metals/.tmp/src/main/scala/mytest/Guardian.scala:24: error: `}` expected but `end of file` found
+
+^
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2194)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:517)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: scala.meta.internal.metals.ScalafixProvider$ScalafixRunException: /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/.metals/.tmp/src/main/scala/mytest/Guardian.scala:24: error: `}` expected but `end of file` found
+
+^
+	at scala.meta.internal.metals.ScalafixProvider.$anonfun$runScalafixRules$4(ScalafixProvider.scala:200)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:503)
+	... 3 more
+
+2025.12.19 23:38:36 ERROR /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/src/main/scala/mytest/Guardian.scala
+/Users/dhirendrakashyap/Projects/MediaRatingsAggregator/.metals/.tmp/src/main/scala/mytest/Guardian.scala:24: error: `}` expected but `end of file` found
+
+^
+2025.12.19 23:38:36 ERROR Map()
+2025.12.19 23:38:36 ERROR /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/.metals/.tmp/src/main/scala/mytest/Guardian.scala:24: error: `}` expected but `end of file` found
+
+^
+scala.meta.internal.metals.ScalafixProvider$ScalafixRunException: /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/.metals/.tmp/src/main/scala/mytest/Guardian.scala:24: error: `}` expected but `end of file` found
+
+^
+	at scala.meta.internal.metals.ScalafixProvider.$anonfun$runScalafixRules$4(ScalafixProvider.scala:200)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:503)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+Dec 19, 2025 11:38:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.ScalafixProvider$ScalafixRunException: /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/.metals/.tmp/src/main/scala/mytest/Guardian.scala:24: error: `}` expected but `end of file` found
+
+^
+java.util.concurrent.CompletionException: scala.meta.internal.metals.ScalafixProvider$ScalafixRunException: /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/.metals/.tmp/src/main/scala/mytest/Guardian.scala:24: error: `}` expected but `end of file` found
+
+^
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2194)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:517)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: scala.meta.internal.metals.ScalafixProvider$ScalafixRunException: /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/.metals/.tmp/src/main/scala/mytest/Guardian.scala:24: error: `}` expected but `end of file` found
+
+^
+	at scala.meta.internal.metals.ScalafixProvider.$anonfun$runScalafixRules$4(ScalafixProvider.scala:200)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:503)
+	... 3 more
+
+2025.12.19 23:38:38 ERROR /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/src/main/scala/mytest/Guardian.scala
+/Users/dhirendrakashyap/Projects/MediaRatingsAggregator/.metals/.tmp/src/main/scala/mytest/Guardian.scala:24: error: `}` expected but `end of file` found
+
+^
+2025.12.19 23:38:38 ERROR Map()
+2025.12.19 23:38:38 ERROR /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/.metals/.tmp/src/main/scala/mytest/Guardian.scala:24: error: `}` expected but `end of file` found
+
+^
+scala.meta.internal.metals.ScalafixProvider$ScalafixRunException: /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/.metals/.tmp/src/main/scala/mytest/Guardian.scala:24: error: `}` expected but `end of file` found
+
+^
+	at scala.meta.internal.metals.ScalafixProvider.$anonfun$runScalafixRules$4(ScalafixProvider.scala:200)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:503)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+Dec 19, 2025 11:38:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.ScalafixProvider$ScalafixRunException: /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/.metals/.tmp/src/main/scala/mytest/Guardian.scala:24: error: `}` expected but `end of file` found
+
+^
+java.util.concurrent.CompletionException: scala.meta.internal.metals.ScalafixProvider$ScalafixRunException: /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/.metals/.tmp/src/main/scala/mytest/Guardian.scala:24: error: `}` expected but `end of file` found
+
+^
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2194)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:517)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: scala.meta.internal.metals.ScalafixProvider$ScalafixRunException: /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/.metals/.tmp/src/main/scala/mytest/Guardian.scala:24: error: `}` expected but `end of file` found
+
+^
+	at scala.meta.internal.metals.ScalafixProvider.$anonfun$runScalafixRules$4(ScalafixProvider.scala:200)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:503)
+	... 3 more
+
+2025.12.19 23:38:43 ERROR /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/src/main/scala/mytest/Guardian.scala
+/Users/dhirendrakashyap/Projects/MediaRatingsAggregator/.metals/.tmp/src/main/scala/mytest/Guardian.scala:25: error: `}` expected but `end of file` found
+
+^
+2025.12.19 23:38:43 ERROR Map()
+2025.12.19 23:38:43 ERROR /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/.metals/.tmp/src/main/scala/mytest/Guardian.scala:25: error: `}` expected but `end of file` found
+
+^
+scala.meta.internal.metals.ScalafixProvider$ScalafixRunException: /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/.metals/.tmp/src/main/scala/mytest/Guardian.scala:25: error: `}` expected but `end of file` found
+
+^
+	at scala.meta.internal.metals.ScalafixProvider.$anonfun$runScalafixRules$4(ScalafixProvider.scala:200)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:503)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+Dec 19, 2025 11:38:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.ScalafixProvider$ScalafixRunException: /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/.metals/.tmp/src/main/scala/mytest/Guardian.scala:25: error: `}` expected but `end of file` found
+
+^
+java.util.concurrent.CompletionException: scala.meta.internal.metals.ScalafixProvider$ScalafixRunException: /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/.metals/.tmp/src/main/scala/mytest/Guardian.scala:25: error: `}` expected but `end of file` found
+
+^
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2194)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:517)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: scala.meta.internal.metals.ScalafixProvider$ScalafixRunException: /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/.metals/.tmp/src/main/scala/mytest/Guardian.scala:25: error: `}` expected but `end of file` found
+
+^
+	at scala.meta.internal.metals.ScalafixProvider.$anonfun$runScalafixRules$4(ScalafixProvider.scala:200)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:503)
+	... 3 more
+
+2025.12.19 23:38:51 INFO  compiling root (1 scala source)
+2025.12.19 23:38:51 INFO  time: compiled root in 0.26s
+2025.12.19 23:39:26 INFO  compiling root (1 scala source)
+2025.12.19 23:39:26 INFO  time: compiled root in 0.2s
+2025.12.19 23:40:19 ERROR /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/src/main/scala/mytest/DummySender.scala
+/Users/dhirendrakashyap/Projects/MediaRatingsAggregator/.metals/.tmp/src/main/scala/mytest/DummySender.scala:54: error: `}` expected but `end of file` found
+
+^
+2025.12.19 23:40:19 ERROR Map()
+2025.12.19 23:40:19 ERROR /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/.metals/.tmp/src/main/scala/mytest/DummySender.scala:54: error: `}` expected but `end of file` found
+
+^
+scala.meta.internal.metals.ScalafixProvider$ScalafixRunException: /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/.metals/.tmp/src/main/scala/mytest/DummySender.scala:54: error: `}` expected but `end of file` found
+
+^
+	at scala.meta.internal.metals.ScalafixProvider.$anonfun$runScalafixRules$4(ScalafixProvider.scala:200)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:503)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+Dec 19, 2025 11:40:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.ScalafixProvider$ScalafixRunException: /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/.metals/.tmp/src/main/scala/mytest/DummySender.scala:54: error: `}` expected but `end of file` found
+
+^
+java.util.concurrent.CompletionException: scala.meta.internal.metals.ScalafixProvider$ScalafixRunException: /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/.metals/.tmp/src/main/scala/mytest/DummySender.scala:54: error: `}` expected but `end of file` found
+
+^
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2194)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:517)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: scala.meta.internal.metals.ScalafixProvider$ScalafixRunException: /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/.metals/.tmp/src/main/scala/mytest/DummySender.scala:54: error: `}` expected but `end of file` found
+
+^
+	at scala.meta.internal.metals.ScalafixProvider.$anonfun$runScalafixRules$4(ScalafixProvider.scala:200)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:503)
+	... 3 more
+
+2025.12.19 23:40:25 ERROR /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/src/main/scala/mytest/DummySender.scala
+/Users/dhirendrakashyap/Projects/MediaRatingsAggregator/.metals/.tmp/src/main/scala/mytest/DummySender.scala:54: error: `}` expected but `end of file` found
+
+^
+2025.12.19 23:40:25 ERROR Map()
+2025.12.19 23:40:25 ERROR /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/.metals/.tmp/src/main/scala/mytest/DummySender.scala:54: error: `}` expected but `end of file` found
+
+^
+scala.meta.internal.metals.ScalafixProvider$ScalafixRunException: /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/.metals/.tmp/src/main/scala/mytest/DummySender.scala:54: error: `}` expected but `end of file` found
+
+^
+	at scala.meta.internal.metals.ScalafixProvider.$anonfun$runScalafixRules$4(ScalafixProvider.scala:200)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:503)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+Dec 19, 2025 11:40:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.ScalafixProvider$ScalafixRunException: /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/.metals/.tmp/src/main/scala/mytest/DummySender.scala:54: error: `}` expected but `end of file` found
+
+^
+java.util.concurrent.CompletionException: scala.meta.internal.metals.ScalafixProvider$ScalafixRunException: /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/.metals/.tmp/src/main/scala/mytest/DummySender.scala:54: error: `}` expected but `end of file` found
+
+^
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2194)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:517)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: scala.meta.internal.metals.ScalafixProvider$ScalafixRunException: /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/.metals/.tmp/src/main/scala/mytest/DummySender.scala:54: error: `}` expected but `end of file` found
+
+^
+	at scala.meta.internal.metals.ScalafixProvider.$anonfun$runScalafixRules$4(ScalafixProvider.scala:200)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:503)
+	... 3 more
+
+2025.12.19 23:40:26 ERROR /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/src/main/scala/mytest/DummySender.scala
+/Users/dhirendrakashyap/Projects/MediaRatingsAggregator/.metals/.tmp/src/main/scala/mytest/DummySender.scala:34: error: illegal start of definition `identifier`
+/
+^
+2025.12.19 23:40:26 ERROR Map()
+2025.12.19 23:40:26 ERROR /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/.metals/.tmp/src/main/scala/mytest/DummySender.scala:34: error: illegal start of definition `identifier`
+/
+^
+scala.meta.internal.metals.ScalafixProvider$ScalafixRunException: /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/.metals/.tmp/src/main/scala/mytest/DummySender.scala:34: error: illegal start of definition `identifier`
+/
+^
+	at scala.meta.internal.metals.ScalafixProvider.$anonfun$runScalafixRules$4(ScalafixProvider.scala:200)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:503)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+Dec 19, 2025 11:40:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.ScalafixProvider$ScalafixRunException: /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/.metals/.tmp/src/main/scala/mytest/DummySender.scala:34: error: illegal start of definition `identifier`
+/
+^
+java.util.concurrent.CompletionException: scala.meta.internal.metals.ScalafixProvider$ScalafixRunException: /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/.metals/.tmp/src/main/scala/mytest/DummySender.scala:34: error: illegal start of definition `identifier`
+/
+^
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2194)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:517)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: scala.meta.internal.metals.ScalafixProvider$ScalafixRunException: /Users/dhirendrakashyap/Projects/MediaRatingsAggregator/.metals/.tmp/src/main/scala/mytest/DummySender.scala:34: error: illegal start of definition `identifier`
+/
+^
+	at scala.meta.internal.metals.ScalafixProvider.$anonfun$runScalafixRules$4(ScalafixProvider.scala:200)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:503)
+	... 3 more
+
+2025.12.19 23:40:38 INFO  compiling root (2 scala sources)
+2025.12.19 23:40:38 INFO  time: compiled root in 0.18s
+2025.12.19 23:40:55 INFO  compiling root (2 scala sources)
+2025.12.19 23:40:55 INFO  time: compiled root in 0.18s
+2025.12.19 23:41:09 INFO  compiling root (5 scala sources)
+2025.12.19 23:41:09 INFO  time: compiled root in 0.28s
+2025.12.19 23:41:09 INFO  compiling root (5 scala sources)
+2025.12.19 23:41:09 INFO  time: compiled root in 0.17s
+2025.12.19 23:41:28 INFO  compiling root (5 scala sources)
+2025.12.19 23:41:28 INFO  time: compiled root in 0.17s
+2025.12.19 23:41:47 INFO  compiling root (5 scala sources)
+2025.12.19 23:41:47 INFO  time: compiled root in 0.56s
+2025.12.19 23:42:44 INFO  compiling root (1 scala source)
+2025.12.19 23:42:44 INFO  time: compiled root in 0.22s
